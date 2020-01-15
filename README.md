@@ -15,9 +15,9 @@ The model was evaluated using the Area Under the Receiver Operating Characterist
 
 ## Approach
 
-Datasource: https://www.kaggle.com/c/home-credit-default-risk/data
-Data visualization: Tableau 
-Exploratory analysis and model building: Python, PySpark on the Databricks platform 
+Datasource: https://www.kaggle.com/c/home-credit-default-risk/data <br />
+Data visualization: Tableau  <br /> 
+Exploratory analysis and model building: Python, PySpark on the Databricks platform <br />
 
 Models Built: 
 1) Logistic Regression with SMOTE Resampling--> AUROC 0.63
