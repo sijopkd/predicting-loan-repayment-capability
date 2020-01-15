@@ -25,3 +25,19 @@ Models Built:
 3) Catboost --> AU-ROC 0.69 
 
 ## Results 
+
+Even though Catboost model slightly outperformed the other algorithms, the final model picked was Logisitic Regression for the following reasons:
+
+1) Interpretability
+2) Ability to modify the posterior probability to reduce False Negatives 
+Note: As a financial institution, it is essential to reduce the False Negatives (clients who tend to default the loan, but the model does not predict that they will), since the loss associated with such cases are very high. 
+3) Reduced training time
+4) Easy to productionize 
+
+## Conclusion
+
+1) The model can be further improved by feature engineering a lot of variables. Due to the limitations in the time, only a few variables were transformed 
+2) More boosting alogorithms such as XGBoost and Adaboost could be trained (Could not perform on Databricks platform due to limitations in the community edition) 
+
+
+
